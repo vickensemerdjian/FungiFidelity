@@ -1,21 +1,34 @@
 {
   "name": "fungifidelity",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "description": "uses AI to generate infinite trivia about your songs with the help of cottagecore",
+  "main": "SplashScreen.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "dev": "vite"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickensemerdjian/FungiFidelity.git"
+  },
+  "keywords": [
+    "AI",
+    "mushroom",
+    "music",
+    "cottagecore",
+    "trivia"
+  ],
+  "author": "knockoffs.bp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickensemerdjian/FungiFidelity/issues"
+  },
+  "homepage": "https://github.com/vickensemerdjian/FungiFidelity#readme",
   "dependencies": {
-    "expo": "~47.0.12",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5"
+    "module": "^1.2.5",
+    "next": "^13.1.6",
+    "openai": "^3.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
-  },
-  "private": true
+    "vite": "^4.1.2"
+  }
 }
