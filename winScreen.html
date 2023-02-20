@@ -1,0 +1,25 @@
+<DOCTYPE! html>
+<html lang="en" id="rightscreen">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FungiFidelity Winscreen</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body style="color: darkgreen;">
+    <h1 style="text-align:center;">You Won!</h1>
+    <p style="text-align:center;">Congrats! You won Fungi Fidelity! Press any key to continue. </p>
+    <script src="TriviaGEN.js" ></script>
+    <script>
+    document.addEventListener('keydown', function(event) {
+    // Check if the key pressed was any button (key code 32)
+    if (event.keyCode === 32) {
+      // Navigate to the new screen
+      window.location.href = 'trivia.html';
+    }
+    });
+    </script>
+
+  </body>
+</html>

@@ -1,4 +1,6 @@
 #Welcome to FungiFidelity#
 
 Credits:
-App skeleton -- expo.dev
+Text generation - OpenAI API
+W3 School - HTML
+MDN Webdocs - How to call API tutorials

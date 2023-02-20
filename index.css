@@ -1,0 +1,138 @@
+body {
+    background-color: #f8e7d1; /* light peach color for background */
+    background-position: center center; /* center the background image */
+    background-repeat: repeat; /* repeat the background image */
+    background-attachment: fixed; /* fix the background image to the viewport */
+  }
+  
+  /* style for main content */
+  .font {
+    font-family: cursive; 
+  }
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* slightly transparent white color for content area */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* subtle box shadow */
+  }
+  
+  /* style for heading */
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222034;
+    /* add a subtle text shadow */
+  }
+  h2{
+    color: #345d4c;
+  }
+  
+  /* style for paragraph text */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #37946e;
+  }
+  
+  /* style for link */
+  a {
+    color: #c5a35a;
+    text-decoration: none;
+    border-bottom: 1px solid #c5a35a;
+  }
+  
+  /* style for button */
+  .button  {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c5a35a;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* style for button hover */
+  .button:hover {
+    background-color: #d7b47a;
+  }
+  /* style for table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* style for table cells */
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #c5a35a;
+  }
+  
+  /* style for table header */
+  th {
+    padding: 10px;
+    text-align: center;
+    background-color: #c5a35a;
+    color: #fff;
+    border: 1px solid #c5a35a;
+  }
+  footer {
+    background-color: #c5a35a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  footer {
+    position: relative;
+    height: 100px;
+    background-color: #ccc;
+  }
+  
+  .footer-left, .footer-right {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .footer-left {
+    left: 0;
+  }
+  
+  .footer-right {
+    right: 0;
+  }
+  
+  
