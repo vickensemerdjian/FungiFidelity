@@ -38,7 +38,7 @@ async function testOpenAi() {
   
 
   const configuration = new Configuration({
-    apiKey: process.env.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,
+    apiKey: process.env.OPEN_AI_API_KEY,
   });
   const openai = new OpenAIApi(configuration);
 
